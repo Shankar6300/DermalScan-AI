@@ -1,7 +1,7 @@
 import os
 import cv2
 import numpy as np
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from keras.preprocessing.image import ImageDataGenerator
 
 # Path to dataset
 DATASET_PATH = "dataset"
