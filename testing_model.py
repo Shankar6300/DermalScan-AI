@@ -7,7 +7,7 @@ import os
 model = load_model("Skin_Disease_Detection_Model.h5")
 
 # Path to your test image
-image_path = r"E:\project\DermalScan-AI\test2.jpg"
+image_path = r"d:\dermal_ai\DermalScan-AI\test2.jpg"
 
 # Validate file exists
 if not os.path.exists(image_path):
